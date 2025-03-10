@@ -1,47 +1,33 @@
 At Yhangry, we are expanding into new markets and need to rapidly identify and acquire 500K+ chef leads in the US. Your task is to design, execute, and reflect on a scalable approach to solving this problem.
-
-https://www.facebook.com/groups/823733911369569/
-
 Stage 1: Plan
 Outline your approach
 Identify data sources and evaluate pros and cons of each
 Propose a method to harvest data quickly
-Public alumni db local
-Not sure how many chefs ar eon linked in
-I would use a combination of web scraping, APIs, social media outreach and partnerships to identify chef leads. 
-I would target leads on freelance platforms like Upwork and Fiverr, culinary schools, social media groups, and gig economy networks. 
-There is a lot of information about chefs spanning different websites and groups. LinkedIn, job recruitment sites like Upwork, Private chef/catering companies, Chef Groups on Facebook and Meetup like the private chef network, Culinary school alumni, restaurant staff, chef networking groups, chef influencers. While all of these would provide great information, most would take a lot of work to fully access and explore. 
-
+To create a scalable approach to acquire chef leads, I would target culinary school alumni, gig platforms and community chef groups. These options allow us to post an opportunity and the chefs looking for work will apply directly to yhangry. This requires no effort on our part besides creating a job post. 
+To harvest data as quickly as possible I would use web scraping on alumni groups of culinary schools or facebook groups. This is free and can generate a lot of leads. In this proposed method I will get sample data from the culinary institute of america, but by joining the alumni network for this institution and access to facebook groups, the potential for leads increases by the tens of thousands.
 Data sources
 Pros
 Cons
 Instagram and tikTok Chef Influencers
-Connection to other Chefs
-Possible ideas for follow up leads or chef groups to target
-Potential Partnership opportunities 
+Direct connection to chefs
+Network opportunities or follow up leads
+Potential partnership opportunities 
 Chefs may not be looking for work
 LinkedIn
-High quality leads	
+Direct connection to leads 
 Expensive when used for scale
-Gig Platforms
+Chefs many not be on LinkedIn 
+Gig Platforms (like Upwork or good food jobs)
 Chefs actively seeking work	
 Competition and high fees
-Culinary schools
+Culinary school alumni
 Chefs looking for work
-Chefs may be more inexperienced 
-Will need institutional approval to access database
-
-
-
-
-
-
-
-
-
-
-
-
+Chefs may inexperienced 
+Need institutional approval to access database
+Meetup/Facebook Groups
+Hundreds of thousands of members between multiple groups
+Not all of the members will be qualified
+Members may have information out of date
 
 
 
@@ -53,9 +39,8 @@ A GitHub link to your implementation
 A CSV/Google Sheet with chef data gathered via your method (sample data of 100 chef leads is sufficient)
 Stage 3: Reflect
 What worked well?
+I created some leads from alumni of the Culinary Institute of America. While the information I obtained is useful, the work done is more of an example of how I could get information from a webpage, an online group or a database. This method used web scraping, but depending on where/how the data is stored there are other methods for retrieval. 
 What were the biggest challenges?
+The biggest challenge was finding the source of information. As I mentioned in stage 1, the most scalable architecture will be to build a database of our own using alumni groups and databases, facebook groups and other online information. For this specific example, the challenge was formatting the html properly, but that was handled using the inspect button and some conditional statements in code. 
 How would you iterate and improve if you had more time/resources?
-
-
-
-[# yhangry](https://www.facebook.com/groups/823733911369569/)
+I would increase the number of websites and other areas I am pulling information from and update and improve the web scraping code to do so. I would iterate and improve on the code to make sure I am getting the correct information based on the content and layout of each source.  This would allow this process to be scalable. 
