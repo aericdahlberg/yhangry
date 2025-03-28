@@ -1,10 +1,9 @@
-At Yhangry, we are expanding into new markets and need to rapidly identify and acquire 500K+ chef leads in the US. Your task is to design, execute, and reflect on a scalable approach to solving this problem.
-Stage 1: Plan
-Outline your approach
-Identify data sources and evaluate pros and cons of each
-Propose a method to harvest data quickly
-To create a scalable approach to acquire chef leads, I would target culinary school alumni, gig platforms and community chef groups. These options allow us to post an opportunity and the chefs looking for work will apply directly to yhangry. This requires no effort on our part besides creating a job post. 
+This is a independent contract project demo with a startup to aquire chef leads. The purpose of this project was to collect data on chef leads and demostrate the capacity for a scalable system. 
+
+To create a scalable system to acquire chef leads, I'm targeting culinary school alumni, gig platforms and community chef groups. These options allow us to post an opportunity and the chefs looking for work will apply directly to yhangry. This requires no effort on our part besides creating a job post. 
+
 To harvest data as quickly as possible I would use web scraping on alumni groups of culinary schools or facebook groups. This is free and can generate a lot of leads. In this proposed method I will get sample data from the culinary institute of america, but by joining the alumni network for this institution and access to facebook groups, the potential for leads increases by the tens of thousands.
+
 Data sources
 Pros
 Cons
